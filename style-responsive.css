@@ -1,0 +1,217 @@
+.menu-tab-rps button{
+    display: none;
+}
+@media only screen and (max-width : 750px){
+    .container{
+        max-width: 100%;
+    }
+    .header-top > .container{
+        display: none;
+    }
+    .nav-top{
+        display: none;
+    }
+    .header-top{
+        height: 100px;
+    }
+    .logo--rps__top{
+        position: absolute;
+        left: 35%;
+    }
+    .menu-rps__top{
+        float: left;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    .search-rps__top{
+        right: 10px;
+        top: 2px;
+        position: absolute;
+    }
+    .search-rps__top > i,.menu-rps__top > i{
+        color: #fff;
+        font-size: 20px;
+    }
+    /* .header-top__responsive{
+        position: relative;
+    } */
+    .slide-home{
+        width: 97%;
+        margin: 0 auto;
+        margin-top: -50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10 5px red;
+    }
+    .slide-home  img{
+        box-shadow: 0px 0px 10 5px red;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .menu-tab-rps{
+        margin-left: 10px;
+    }
+    .menu-tab-rps{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu-tab-rps button{
+        display: block;
+        float: left;
+        justify-content: space-around;
+        cursor: pointer;
+        margin: 10px ;
+        width: 140px;
+        height: 37px;
+        outline: none;
+        border-radius: 15px;
+        border: none;
+        color: #fff;
+    }
+    .menu-tab-rps button:nth-child(1),.menu-tab-rps button:nth-child(2){
+        background-image: linear-gradient(to bottom right, #02980e, #5dc956);
+    }
+    .menu-tab-rps button:nth-child(3){
+        background-image: linear-gradient(to bottom right, #0d53a0, #1a91e9);
+    }
+    .flex--box > h2{
+        font-size: 20px;
+    }
+    .flex--box {
+        margin-top: 0px;
+    }
+    .item--car__gift {
+        width: 230px;
+        height: 350px;
+        margin-top: 30px ;
+        border-radius: 10px ;
+    }
+    .item--car__gift img{
+        border-radius: 10px;
+    }
+    .tym{
+        top: 8px;
+        right: 15px;
+    }
+    .item--car__gift--information{
+        width: 215px;
+        margin-top: 0px;
+    }
+    .item--car__gift--information h4{
+        margin-bottom: 5px;
+    }
+    .item--car__gift--information p{
+        font-size: 14x;
+    }
+    .list li{
+        font-size: 14px;
+        margin: 6px 0px;
+    }
+    .list li i{
+        margin-right: 7px;
+        color: #888;
+    }
+    .item--car__gift--btn button{
+        padding: 7px 20px;
+        border-radius: 20px;
+        margin: 0 5px;
+        font-size: 14px;
+    }
+    .item--car__gift .item--car__gift--btn button{
+        display: block;
+        transition: all 0.5s ease;
+    }
+    .item--car__gift .tym{
+        font-size: 30px;
+    }
+    .item--car__gift{
+        box-shadow: 0px 0px 10px 1px #888;
+    }
+    .main--car__sold{
+        width: 45%;
+    }
+    .main--box__search{
+        display: none;
+    }
+}
+@media only screen and (max-width : 586px){
+    .main > .container{
+        max-width: 100%;
+        width: 100%;
+        padding: 0 0px;
+        justify-content: space-between;
+    }
+    .flex--box > h2{
+        font-size: 18px;
+        margin-top: 10px;
+        font-weight: 700;
+    }
+    .flex--box {
+        margin-top: 0px;
+    }
+    .item--car__gift {
+        width: 160px;
+        height: 230px;
+        margin-top: 15px ;
+        border-radius: 10px ;
+    }
+    .item--car__gift img{
+        border-radius: 8px;
+    }
+    .tym{
+        top: 8px;
+        right: 15px;
+    }
+    .tag-deal-list{
+        margin-top: -27.5px;
+        color: #fff;
+        background: linear-gradient(90deg,#ee501f 0%,#ffb800 99.09%);
+        padding: 2px 25px 2px 5px;
+        border-radius: 1px 15px 0px 1px;
+        font-size: 11px;
+        margin-top:-21.5px ;
+    }
+    .item--car__gift--information{
+        width: 150px;
+        margin-top: 0px;
+    }
+    .item--car__gift--information h4{
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .item--car__gift--information p{
+        font-size: 13px;
+    }
+    .list{
+        display: none;
+    }
+    .money{
+        display: none;
+    }
+    .phone {
+        display: flex;
+        justify-content: center;
+    }
+    .item--car__gift--btn button{
+        padding: 6px 15px;
+        border-radius: 15px;
+        margin: 0 3px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .phone  > button{
+        display: none;
+    } 
+    .item--car__gift .item--car__gift--btn button{
+        display: block;
+        transition: all 0.5s ease;
+    }
+    .item--car__gift .tym{
+        font-size: 20px;
+    }
+    .item--car__gift{
+        box-shadow: 0px 0px 10px 1px #888;
+    }
+    .main--car__sold{
+        width: 95%;
+    }
+}

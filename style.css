@@ -698,6 +698,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 .box-link-seo-list-col{
     margin-top: 30px;
@@ -850,6 +851,8 @@ ul li{
 .start-bt{
     background-color: #4cb848;
 }
+
+/* FOODER BOTTOM */
 .fooder-bottom{
     background-image: url(https://img1.oto.com.vn/2020/05/20/tGb7VGse/footer-bg-a960.jpg);
     background-repeat: no-repeat;
@@ -899,4 +902,3 @@ ul li{
     height: 40px;
     margin-bottom: 5px;
 }
-

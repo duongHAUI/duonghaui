@@ -850,3 +850,53 @@ ul li{
 .start-bt{
     background-color: #4cb848;
 }
+/* FOODER BOTTOM */
+.fooder-bottom{
+    background-image: url(https://img1.oto.com.vn/2020/05/20/tGb7VGse/footer-bg-a960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 1000px; */
+}
+.fooder-bottom_container{
+    width: 1170px;
+    margin: auto;
+    padding-top:30px ;
+}
+.fooder-bottom_container-list{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.fooder-bottom_container-list-sub{
+    font-size: 14px;
+    color: #ffffff;
+}
+.fooder-bottom_container-list-sub-item{
+    margin-bottom: 10px;
+    
+}
+.title-fooder{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fooder-bottom_container-list-sub-icon{
+    position: relative;
+}
+.fooder-bottom_container-list-sub-icon i {
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 0 15px 15px 0  ;
+}
+.fooder-bottom_container-list-sub-icon i.fa-users{
+    font-size: 22px;
+}
+.fooder-bottom_container-list-sub-icon span{
+    position: absolute;
+    top: 6px;
+}
+.fooder-bottom_container-list-sub-img img{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5px;
+}
